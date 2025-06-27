@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background: linear-gradient(#363377, #27556C);
+    font: 600 16px/18px "Open Sans", sans-serif;
+  }
+  
+  *,:after,:before {
+    box-sizing: border-box;
+  }
+  
+  .clearfix:after,.clearfix:before {
+    content: "";
+    display: table;
+  }
+  
+  .clearfix:after {
+    clear: both;
+    display: block;
+  }
+  
+  .login-wrap {
+    color: white;
+    width: 100%;
+    margin: auto;
+    max-width: 525px;
+    min-height: 700px;
+    position: relative;
+    background-image: url("img/technology-6701504_1280.jpg"), no-repeat, center;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .login-html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+    background: rgba(40, 57, 101, 0.9);
+  }
+  
+  .login-form .group .check:checked + label {
+    color: #fff;
+  }
+  
+  .login-form .group .check:checked + label .icon {
+    background: #1161ee;
+  }
+  
+  .login-form .group .check:checked + label .icon:before {
+    transform: scale(1) rotate(45deg);
+  }
+  
+  .login-form .group .check:checked + label .icon:after {
+    transform: scale(1) rotate(-45deg);
+  }
+  
+  .login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm {
+    transform: rotate(0);
+  }
+  
+  .login-html .sign-up:checked + .tab + .login-form .sign-up-htm {
+    transform: rotate(0);
+  }
+
+.form-control{
+    margin: 10px;
+}
+
+.table{
+  position: relative;
+  top: 50%;
+  left: 40%;
+  display:block;
+  margin: 0 auto;
+}
+
+.usuario{
+
+  border: 60px;
+
+}
