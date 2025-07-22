@@ -33,7 +33,7 @@ Criação de um formulário para cadastro de usuários com as funcionalidades do
 
 <h1>🎲 Banco de Dados</h1>
 
-- Usado o banco de dados no XAMP e criado o banco de dados com o Postegres
+- Usado o banco de dados no XAMP e criado o banco de dados com o Postegress
 
 <h1>👤 Responsável</h1>
 
